@@ -1,9 +1,12 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     display: inline;
-    background-color: #b3e6ff;
+    background-color: #bfb3ff;
     /* background-position: center;
     background-repeat: no-repeat; */
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .head {
@@ -16,7 +19,7 @@ body {
     flex: 2;
     justify-content: flex-start;
     text-align: center;
-    font-family: serif;
+    /* font-family: serif; */
     font-size: 60px;
 }
 
@@ -24,12 +27,18 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50px;
+}
+
+.social_logo {
+    border-radius: 50px;
+    margin-right: 15px;
 }
 
 .nav {
     display: flex;
     flex: 1;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
@@ -53,7 +62,7 @@ body {
 .paragraph {
     text-align: center;
     font-size: 50;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .list {
@@ -66,9 +75,9 @@ body {
     display: block;
     position: relative;
     left: 50px;
-    font-family: serif;
+    /* font-family: serif; */
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     float: center;
     right: 50px;
 }
@@ -77,15 +86,15 @@ body {
     display: block;
     position: relative;
     left: 50px;
-    font-family: serif;
+    /* font-family: serif; */
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     float: center;
     right: 50px;
 }
 
 .list {
-    font-family: serif;
+    /* font-family: serif; */
     font-size: 20px
 }
 
